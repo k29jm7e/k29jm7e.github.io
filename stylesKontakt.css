@@ -73,8 +73,8 @@ form {
   font-family: arial;
   color: white;
   margin-top: 10px;
-  position: absolute;
-  bottom: 0;
+  /*position: absolute;
+  bottom: 0;*/
   font-size: 20px;
 }
 

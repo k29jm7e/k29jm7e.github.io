@@ -96,8 +96,8 @@ img {
  .copy {
    font-family: arial;
    color: white;
-   position: absolute;
-   bottom: 0;
+   /*position: absolute;
+   bottom: 0;*/
    font-size: 20px;
  }
 
