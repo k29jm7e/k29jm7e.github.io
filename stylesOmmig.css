@@ -1,0 +1,121 @@
+
+h1 {
+  color: white;
+  font-size: 50px;
+  border-width: 5px;
+}
+
+a:link, a:visited {
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+body {
+   background: rgb(220, 220, 220);
+   background-image: url("./images/are.jpg");
+}
+
+.menu {
+  /*flexbox*/
+   display: flex;
+   justify-content: center;
+   height: 120px;
+   flex-directon: row;
+   border-radius: 8px;
+
+  /*styling*/
+   background: rgba(255, 255, 225, 0.3);
+ }
+
+ .item {
+   /*flexbox*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   /*styling*/
+   width: 100%;
+  /* margin: 10px;*/
+   padding: 50px;
+   font-size: 30px;
+   font-family: arial;
+   color: #ffffff;
+ }
+
+ .item:hover{
+   background-color: yellow;
+     border-radius: 8px;
+ }
+
+ h1 {
+   font-family: arial;
+   color: white;
+ }
+
+form {
+  color: white;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.iten {
+  color: white;
+  margin: 30px;
+  font-size: 20px;
+  font-family: arial;
+}
+
+.copy {
+  font-family: arial;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
+}
+
+img {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.item-2 {
+ background: rgba(255, 255, 225, 0.9);
+ border-radius: 8px;
+ padding: 0px;
+}
+
+.abc{
+  display: flex;
+  justify-content: left;
+  margin: 10px;
+}
+
+li {
+  color: white;
+  font-family: arial;
+  font-size: 40;
+  padding: 10px;
+}
+
+.profilbild {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 250px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.description {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 40px;
+}

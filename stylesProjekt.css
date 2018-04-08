@@ -1,0 +1,142 @@
+
+h1 {
+  color: white;
+  font-size: 50px;
+  border-width: 5px;
+}
+
+a:link, a:visited {
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+body {
+   background: rgb(220, 220, 220);
+   background-image: url("./images/are.jpg");
+   /*background-size: cover;*/
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 60px;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: arial;
+    color: #000000;
+    font-size: 30px;
+
+}
+
+.menu {
+  /*flexbox*/
+   display: flex;
+   justify-content: center;
+   height: 120px;
+   flex-directon: row;
+   border-radius: 8px;
+
+  /*styling*/
+   background: rgba(255, 255, 225, 0.3);
+ }
+
+ .item {
+   /*flexbox*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   /*styling*/
+   width: 100%;
+   /*margin: 10px;*/
+   padding: 50px;
+   font-size: 30px;
+   font-family: arial;
+   color: #ffffff;
+ }
+ 
+ .item:hover{
+   background-color: yellow;
+     border-radius: 8px;
+ }
+
+ .projects {
+   /*flexbox*/
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    margin-top: 50px;
+  }
+
+ .item2 {
+   /*flexbox*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /*styling*/
+   width: 100%;
+   margin: 20px;
+   padding: 50px;
+   font-size: 30px;
+   font-family: arial;
+   color: #ffffff;
+   background: rgb(220, 255, 225);
+   border-radius: 8px;
+ }
+
+ .projects2 {
+   /*flexbox*/
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    margin-top: 50px;
+  }
+ .item3 {
+   /*flexbox*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /*styling*/
+   width: 100%;
+   margin: 20px;
+   padding: 50px;
+   font-size: 30px;
+   font-family: arial;
+   color: #ffffff;
+   background: rgb(220, 255, 225);
+   border-radius: 8px;
+ }
+
+ h1 {
+   font-family: arial;
+   color: white;
+ }
+
+ .copy {
+   font-family: arial;
+   color: white;
+   /* position: absolute;
+   bottom: 0; */
+   font-size: 20px;
+ }
+
+ .item-3 {
+  background: rgba(255, 255, 225, 0.9);
+  border-radius: 8px;
+  padding: 0px;
+ }
