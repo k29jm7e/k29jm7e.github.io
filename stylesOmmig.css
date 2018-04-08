@@ -49,8 +49,12 @@ body {
 
  .item:hover{
    background-color: yellow;
-     border-radius: 8px;
+   border-radius: 8px;
  }
+
+.profilbild:hover{
+   transition: .5s erase;
+}
 
  h1 {
    font-family: arial;
